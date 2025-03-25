@@ -1,7 +1,10 @@
 <aside
     class="flex h-screen w-64 flex-col overflow-y-auto border-r bg-white px-4 py-8 rtl:border-l rtl:border-r-0 dark:border-gray-700 dark:bg-gray-900">
     <a href="{{ route('index') }}">
-        <img class="ml-12 h-5 w-auto sm:h-9" src="{{ asset('/build/assets/Bluetex Logo 1.svg') }}" alt="">
+        <div class="div" style="margin-left:26px; width:150px">
+        <img src="{{ asset('logo.svg') }}" alt="Your Logo">
+        </div>
+        
     </a>
 
     <div class="mt-6 flex flex-1 flex-col justify-between">
