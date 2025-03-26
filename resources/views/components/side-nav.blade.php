@@ -182,7 +182,7 @@
         <div class="mt-6 flex items-center justify-between">
             <button onclick="openModal('profileModal')" class="flex items-center gap-x-2">
                 <img class="h-7 w-7 rounded-full object-cover"
-                    src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&h=634&q=80"
+                    src="{{asset('profile.png')}}"
                     alt="avatar" />
                 <span class="text-sm font-medium text-gray-700 dark:text-gray-200">
                     {{ Auth::user()->name ?? 'Guest' }}
